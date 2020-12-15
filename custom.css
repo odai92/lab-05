@@ -1,0 +1,1 @@
+add_action('wp_header', function(){ echo '<link rel="stylesheet" href="'.get_stylesheet_directory_uri().'/custom.css">'; }, 999999 );
